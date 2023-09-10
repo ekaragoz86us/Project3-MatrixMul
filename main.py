@@ -33,15 +33,6 @@ Bdata = (Bdata.rstrip('\n')).split(" ")
 
 f.close()
 
-#     c0 c1 c2
-# r0  1  2  3
-# r1  4  5  6
-#   0       1      2      3     4      5
-# (0,0), (0,1), (0,2), (1,0), (1,1), (1,2)
-# rA = 2 --> i = 0, 1
-# cA = 3 --> j = 0, 1, 2
-# (i,j) <--> cA * i + j
-
 A = [[int(Adata[cA * i + j]) for j in range(cA)] for i in range(rA)]
 print("A =", A)
 
