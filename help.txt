@@ -1,0 +1,11 @@
+# File operations in Python
+# * https://www.w3schools.com/python/python_file_open.asp
+# * https://www.geeksforgeeks.org/reading-writing-text-files-python/
+
+#f = open("dosya.ismi", "flag-r-w-a")
+#f.read()
+#f.read(10)  -- not necessary
+#f.readline() -- satiri okur ve string olarak dondurur, sonraki satira gecer
+#f.write("string...") -- dosyanin sonuna yaz eger dosya 'a' ile acilmissa
+#f.write("string...") -- bos dosyaya yazar eger dosya 'w' ile acilmissa
+#f.close()
